@@ -1,6 +1,6 @@
 # 🦜 Generative Deep Learning - 2nd Edition Codebase
 
-The official code repository for the second edition of the O'Reilly book *Generative Deep Learning: Teaching Machines to Paint, Write, Compose and Play*.
+The official code repository for the second edition of the O'Reilly book _Generative Deep Learning: Teaching Machines to Paint, Write, Compose and Play_.
 
 [O'Reilly link](https://www.oreilly.com/library/view/generative-deep-learning/9781098134174/)
 
@@ -12,12 +12,12 @@ The official code repository for the second edition of the O'Reilly book *Genera
 
 Below is a outline of the book chapters:
 
-*Part I: Introduction to Generative Deep Learning*
+_Part I: Introduction to Generative Deep Learning_
 
 1. Generative Modeling
 2. Deep Learning
 
-*Part II: Methods*
+_Part II: Methods_
 
 3. Variational Autoencoders
 4. Generative Adversarial Networks
@@ -26,7 +26,7 @@ Below is a outline of the book chapters:
 7. Energy-Based Models
 8. Diffusion Models
 
-*Part III: Applications*
+_Part III: Applications_
 
 9. Transformers
 10. Advanced GANs
@@ -117,14 +117,16 @@ bash scripts/download.sh [faces, bricks, recipes, flowers, wines, cellosuites, c
 Tensorboard is really useful for monitoring experiments and seeing how your model training is progressing.
 
 To launch Tensorboard, run the following script (from outside the container):
-* `<CHAPTER>` - the required chapter (e.g. `03_vae`)
-* `<EXAMPLE>` - the required example (e.g. `02_vae_fashion`)
+
+- `<CHAPTER>` - the required chapter (e.g. `03_vae`)
+- `<EXAMPLE>` - the required example (e.g. `02_vae_fashion`)
 
 ```
 bash scripts/tensorboard.sh <CHAPTER> <EXAMPLE>
 ```
 
 Tensorboard will be available in your local browser on the port specified in your `.env` file - for example:
+
 ```
 http://localhost:6006
 ```
@@ -136,5 +138,3 @@ To set up a virtual machine with GPU in Google Cloud Platform, follow the instru
 ## 📦 Other resources
 
 Some of the examples in this book are adapted from the excellent open source implementations that are available through the [Keras website](https://keras.io/examples/generative/). I highly recommend you check out this resource as new models and examples are constantly being added.
-
-
